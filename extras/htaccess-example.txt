@@ -1,6 +1,0 @@
-# OPTIONAL, Apache only. Rename to .htaccess and place inside the admin folder ONLY after creating a password file.
-# Replace the path below with the real full server path to your .htpasswd file.
-AuthType Basic
-AuthName "Admin"
-AuthUserFile /FULL/PATH/TO/.htpasswd
-Require valid-user
